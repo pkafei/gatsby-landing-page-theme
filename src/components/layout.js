@@ -3,17 +3,16 @@ import PropTypes from "prop-types"
 
 import Body from "./body"
 import Head from "./head"
-import Header from "./header"
+
+import "./layout.css"
 
 
 const Layout = ({ }) => {
     return (
-        <>  
+        <>
             <Head />
-            <Header />
             <Body />
         </>
-
     )
 }
 
